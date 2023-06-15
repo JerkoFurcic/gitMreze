@@ -1,6 +1,3 @@
-# -- coding: utf-8 --
-#echo_client.py
-
 import socket
 import datetime
 

@@ -1,6 +1,3 @@
-# --coding: utf-8 --
-#echo_server.py
-
 import socket
 import datetime
 from vj_zad1 import print_machine_info

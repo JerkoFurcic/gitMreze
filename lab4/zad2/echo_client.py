@@ -13,11 +13,10 @@ client_socket=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect_ex((host, port))
 
 upit=input('Unesite tekst: ')
-ime='kbs'
+ime='JF'
 
 if(upit == ime):
     print('Unos nije podržan.')
-
 
 
 client_socket.send(upit.encode('ascii'))
